@@ -1,0 +1,7 @@
+name: 'WW Core'
+type: module
+description: 'Weaving Webs Drupal Core'
+core: 8.x
+core_version_requirement: ^8 || ^9
+version: 8.x-1.0.0
+package: '__ww__'

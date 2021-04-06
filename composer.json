@@ -1,0 +1,16 @@
+{
+  "name": "weavingwebs/ww_drupal_core",
+  "type": "drupal-module",
+  "description": "Weaving Webs Drupal Core",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://github.com/weavingwebs/ww_drupal_core",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://github.com/weavingwebs/ww_drupal_core/issues",
+    "source": "https://github.com/weavingwebs/ww_drupal_core"
+  },
+  "require": {
+    "php": "~7.4"
+  }
+}
