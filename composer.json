@@ -11,6 +11,6 @@
     "source": "https://github.com/weavingwebs/ww_drupal_core"
   },
   "require": {
-    "php": "~7.4"
+    "php": "~7.4|~8"
   }
 }
