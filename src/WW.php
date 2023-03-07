@@ -4,12 +4,7 @@ namespace Drupal\ww_drupal_core;
 
 class WW {
 
-  public static function createEntityTypes($entity_type_ids) {
-    \Drupal::service('entity_type.manager')->clearCachedDefinitions();
-    \Drupal::service('entity_type.bundle.info')->clearCachedBundles();
-    \Drupal::service('entity_field.manager')->clearCachedFieldDefinitions();
-    \Drupal::service('entity_type.repository')->clearCachedDefinitions();
-
+  public static function createEntityTypes(array $entity_type_ids): void {
     foreach ($entity_type_ids as $entity_type_id) {
       $entity_type = \Drupal::entityTypeManager()->getDefinition($entity_type_id);
       if (!$entity_type) {
